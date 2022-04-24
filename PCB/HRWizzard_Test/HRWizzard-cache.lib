@@ -1,0 +1,327 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_Generic_Conn_02x04_Odd_Even
+#
+DEF Connector_Generic_Conn_02x04_Odd_Even J 0 40 Y N 1 F N
+F0 "J" 50 200 50 H V C CNN
+F1 "Connector_Generic_Conn_02x04_Odd_Even" 50 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 150 -250 1 1 10 f
+S 150 -195 100 -205 1 1 6 N
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 300 100 150 L 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 300 0 150 L 50 50 1 1 P
+X Pin_5 5 -200 -100 150 R 50 50 1 1 P
+X Pin_6 6 300 -100 150 L 50 50 1 1 P
+X Pin_7 7 -200 -200 150 R 50 50 1 1 P
+X Pin_8 8 300 -200 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C_Small
+#
+DEF Device_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# HRWizzard-rescue_LSM9DS1TR-dk_Motion-Sensors-IMUs-Inertial-Measurement-Units
+#
+DEF HRWizzard-rescue_LSM9DS1TR-dk_Motion-Sensors-IMUs-Inertial-Measurement-Units U 0 40 Y Y 1 F N
+F0 "U" -501 739 60 H V L CNN
+F1 "HRWizzard-rescue_LSM9DS1TR-dk_Motion-Sensors-IMUs-Inertial-Measurement-Units" 227 -453 60 H V L CNN
+F2 "digikey-footprints:LGA-24_3x3.5mm_LSM9DS1" 200 200 60 H I L CNN
+F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/1e/3f/2a/d6/25/eb/48/46/DM00103319.pdf/files/DM00103319.pdf/jcr:content/translations/en.DM00103319.pdf" 200 300 60 H I L CNN
+F4 "497-14946-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "LSM9DS1TR" 200 500 60 H I L CNN "MPN"
+F6 "Sensors, Transducers" 200 600 60 H I L CNN "Category"
+F7 "Motion Sensors - IMUs (Inertial Measurement Units)" 200 700 60 H I L CNN "Family"
+F8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/1e/3f/2a/d6/25/eb/48/46/DM00103319.pdf/files/DM00103319.pdf/jcr:content/translations/en.DM00103319.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/stmicroelectronics/LSM9DS1TR/497-14946-1-ND/4988079" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IMU ACCEL/GYRO/MAG I2C/SPI 24LGA" 200 1000 60 H I L CNN "Description"
+F11 "STMicroelectronics" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -500 700 500 -400 0 1 0 f
+X VDDIO 1 -200 800 100 D 50 50 1 0 W
+X INT_M 10 600 100 100 L 50 50 1 0 O
+X INT1_A/G 11 600 0 100 L 50 50 1 0 O
+X INT2_A/G 12 600 -100 100 L 50 50 1 0 O
+X DEN_A/G 13 -600 0 100 R 50 50 1 0 I
+X RES 14 -400 -500 100 U 50 50 1 0 W
+X RES 15 -300 -500 100 U 50 50 1 0 W
+X RES 16 -200 -500 100 U 50 50 1 0 W
+X RES 17 -100 -500 100 U 50 50 1 0 W
+X RES 18 0 -500 100 U 50 50 1 0 W
+X GND 19 100 -500 100 U 50 50 1 0 W
+X SCL/SPC 2 -600 300 100 R 50 50 1 0 I
+X GND 20 200 -500 100 U 50 50 1 0 W
+X CAP 21 600 -300 100 L 50 50 1 0 U
+X VDD 22 100 800 100 D 50 50 1 0 W
+X VDD 23 200 800 100 D 50 50 1 0 W
+X C1 24 600 -200 100 L 50 50 1 0 U
+X VDDIO 3 -100 800 100 D 50 50 1 0 W
+X SDA/SDI/SDO 4 -600 400 100 R 50 50 1 0 B
+X SDO_A/G 5 600 400 100 L 50 50 1 0 O
+X SDO_A/G 6 600 300 100 L 50 50 1 0 O
+X CS_A/G 7 -600 200 100 R 50 50 1 0 I
+X CS_M 8 -600 100 100 R 50 50 1 0 I
+X DRDY_M 9 600 200 100 L 50 50 1 0 O
+ENDDRAW
+ENDDEF
+#
+# HRWizzard-rescue_Pico-MCU_RaspberryPi_and_Boards
+#
+DEF HRWizzard-rescue_Pico-MCU_RaspberryPi_and_Boards U 0 40 Y Y 1 F N
+F0 "U" -550 1100 50 H V C CNN
+F1 "HRWizzard-rescue_Pico-MCU_RaspberryPi_and_Boards" 0 750 50 H V C CNN
+F2 "RPi_Pico:RPi_Pico_SMD_TH" 0 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 850 50 0 0 0 "Raspberry Pi" Normal 0 C C
+S -600 1050 600 -1050 0 1 0 f
+X GPIO0 1 -700 950 100 R 50 50 1 1 B
+X GPIO7 10 -700 50 100 R 50 50 1 1 B
+X GPIO8 11 -700 -50 100 R 50 50 1 1 B
+X GPIO9 12 -700 -150 100 R 50 50 1 1 B
+X GND 13 -700 -250 100 R 50 50 1 1 W
+X GPIO10 14 -700 -350 100 R 50 50 1 1 B
+X GPIO11 15 -700 -450 100 R 50 50 1 1 B
+X GPIO12 16 -700 -550 100 R 50 50 1 1 B
+X GPIO13 17 -700 -650 100 R 50 50 1 1 B
+X GND 18 -700 -750 100 R 50 50 1 1 W
+X GPIO14 19 -700 -850 100 R 50 50 1 1 B
+X GPIO1 2 -700 850 100 R 50 50 1 1 B
+X GPIO15 20 -700 -950 100 R 50 50 1 1 B
+X GPIO16 21 700 -950 100 L 50 50 1 1 B
+X GPIO17 22 700 -850 100 L 50 50 1 1 B
+X GND 23 700 -750 100 L 50 50 1 1 W
+X GPIO18 24 700 -650 100 L 50 50 1 1 B
+X GPIO19 25 700 -550 100 L 50 50 1 1 B
+X GPIO20 26 700 -450 100 L 50 50 1 1 B
+X GPIO21 27 700 -350 100 L 50 50 1 1 B
+X GND 28 700 -250 100 L 50 50 1 1 W
+X GPIO22 29 700 -150 100 L 50 50 1 1 B
+X GND 3 -700 750 100 R 50 50 1 1 W
+X RUN 30 700 -50 100 L 50 50 1 1 I
+X GPIO26_ADC0 31 700 50 100 L 50 50 1 1 B
+X GPIO27_ADC1 32 700 150 100 L 50 50 1 1 B
+X AGND 33 700 250 100 L 50 50 1 1 W
+X GPIO28_ADC2 34 700 350 100 L 50 50 1 1 B
+X ADC_VREF 35 700 450 100 L 50 50 1 1 U
+X 3V3 36 700 550 100 L 50 50 1 1 U
+X 3V3_EN 37 700 650 100 L 50 50 1 1 I
+X GND 38 700 750 100 L 50 50 1 1 B
+X VSYS 39 700 850 100 L 50 50 1 1 U
+X GPIO2 4 -700 650 100 R 50 50 1 1 B
+X VBUS 40 700 950 100 L 50 50 1 1 U
+X SWCLK 41 -100 -1150 100 U 50 50 1 1 I
+X GND 42 0 -1150 100 U 50 50 1 1 W
+X SWDIO 43 100 -1150 100 U 50 50 1 1 B
+X GPIO3 5 -700 550 100 R 50 50 1 1 B
+X GPIO4 6 -700 450 100 R 50 50 1 1 B
+X GPIO5 7 -700 350 100 R 50 50 1 1 B
+X GND 8 -700 250 100 R 50 50 1 1 W
+X GPIO6 9 -700 150 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# HRWizzard-rescue_Qwiic_Connector-SparkFun_SchematicComponents
+#
+DEF HRWizzard-rescue_Qwiic_Connector-SparkFun_SchematicComponents J 0 1 N Y 1 F N
+F0 "J" -100 210 50 H V L BNN
+F1 "HRWizzard-rescue_Qwiic_Connector-SparkFun_SchematicComponents" -270 -280 50 H V L BNN
+F2 "SPARKX_1X04_1MM_RA" -20 100 20 H I C CNN
+F3 "" -50 -50 60 H I C CNN
+$FPLIST
+ *SPARKX_1X04_1MM_RA*
+ *SPARKX_1X04*
+ *SPARKX_1X04_NO_SILK*
+$ENDFPLIST
+DRAW
+S -100 200 150 -200 0 1 10 f
+X GND 1 200 -150 100 L 50 50 1 1 W
+X VCC 2 200 -50 100 L 50 50 1 1 W
+X SDA 3 200 50 100 L 50 50 1 1 P
+X SCL 4 200 150 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_APDS-9960
+#
+DEF SamacSys_Parts_APDS-9960 U 0 30 Y Y 1 F N
+F0 "U" 950 300 50 H V L CNN
+F1 "SamacSys_Parts_APDS-9960" 950 200 50 H V L CNN
+F2 "APDS-9950" 950 100 50 H I L CNN
+F3 "https://docs.broadcom.com/docs/AV02-4191EN" 950 0 50 H I L CNN
+F4 "BROADCOM LIMITED - APDS-9960 - SENSOR, PROXIMITY/GESTURE, 2.4V TO 3.6V" 950 -100 50 H I L CNN "Description"
+F5 "Avago Technologies" 950 -300 50 H I L CNN "Manufacturer_Name"
+F6 "APDS-9960" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "630-APDS-9960" 950 -500 50 H I L CNN "Mouser Part Number"
+F8 "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/APDS-9960?qs=9j6qqDjiC68hPiaH59tKpQ%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F9 "APDS-9960" 950 -700 50 H I L CNN "Arrow Part Number"
+F10 "https://www.arrow.com/en/products/apds-9960/broadcom-limited?region=nac" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+X SDA 1 1100 0 200 L 50 50 0 0 P
+X INT 2 1100 -100 200 L 50 50 0 0 P
+X LDR 3 1100 -200 200 L 50 50 0 0 P
+X LEDK 4 1100 -300 200 L 50 50 0 0 P
+X LEDA 5 0 -300 200 R 50 50 0 0 P
+X GND 6 0 -200 200 R 50 50 0 0 P
+X SCL 7 0 -100 200 R 50 50 0 0 P
+X VDD 8 0 0 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_COM-16346
+#
+DEF SamacSys_Parts_COM-16346 IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "SamacSys_Parts_COM-16346" 950 200 50 H V L CNN
+F2 "COM16346" 950 100 50 H I L CNN
+F3 "http://cdn.sparkfun.com/datasheets/BreakoutBoards/WS2812B.pdf" 950 0 50 H I L CNN
+F4 "LED Lighting Bars and Strips SMD LED - RGB WS2812B (Strip of 50)" 950 -100 50 H I L CNN "Description"
+F5 "2.25" 950 -200 50 H I L CNN "Height"
+F6 "SparkFun" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "COM-16346" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "474-COM-16346" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-16346?qs=OlC7AqGiEDnspdV1Dchx7w%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+X VDD 1 0 0 200 R 50 50 0 0 P
+X DOUT 2 0 -100 200 R 50 50 0 0 P
+X VSS 3 1100 -100 200 L 50 50 0 0 P
+X DIN 4 1100 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_HTS221TR
+#
+DEF SamacSys_Parts_HTS221TR IC 0 30 Y Y 1 F N
+F0 "IC" 1450 900 50 H V L CNN
+F1 "SamacSys_Parts_HTS221TR" 1450 800 50 H V L CNN
+F2 "HLGA-6L" 1450 700 50 H I L CNN
+F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/4d/9a/9c/ad/25/07/42/34/DM00116291.pdf/files/DM00116291.pdf/jcr:content/translations/en.DM00116291.pdf" 1450 600 50 H I L CNN
+F4 "Humidity and Temperature Sensor HLGA6 STMicroelectronics HTS221TR Temperature & Humidity Sensor, -40  +120 C, 6-Pin HLGA" 1450 500 50 H I L CNN "Description"
+F5 "STMicroelectronics" 1450 300 50 H I L CNN "Manufacturer_Name"
+F6 "HTS221TR" 1450 200 50 H I L CNN "Manufacturer_Part_Number"
+F7 "511-HTS221TR" 1450 100 50 H I L CNN "Mouser Part Number"
+F8 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/HTS221TR?qs=9MuLHSklicqAHntRLffjZQ%3D%3D" 1450 0 50 H I L CNN "Mouser Price/Stock"
+F9 "HTS221TR" 1450 -100 50 H I L CNN "Arrow Part Number"
+F10 "https://www.arrow.com/en/products/hts221tr/stmicroelectronics" 1450 -200 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 700 1400 700 1400 -500 200 -500 200 700 N
+X VDD 1 0 0 200 R 50 50 0 0 P
+X SCL/SPC 2 0 -100 200 R 50 50 0 0 P
+X DRDY 3 800 -700 200 U 50 50 0 0 P
+X SDA/SDI/SDO 4 1600 -100 200 L 50 50 0 0 P
+X GND 5 1600 0 200 L 50 50 0 0 P
+X SPI_ENABLE 6 800 900 200 D 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Switch_SW_Push
+#
+DEF Switch_SW_Push SW 0 40 N N 1 F N
+F0 "SW" 50 100 50 H V L CNN
+F1 "Switch_SW_Push" 0 -60 50 H V C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+C -80 0 20 0 1 0 N
+C 80 0 20 0 1 0 N
+P 2 0 1 0 0 50 0 120 N
+P 2 0 1 0 100 50 -100 50 N
+X 1 1 -200 0 100 R 50 50 0 1 P
+X 2 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# power_+3.3V
+#
+DEF power_+3.3V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3.3V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
